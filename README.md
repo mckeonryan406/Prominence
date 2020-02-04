@@ -1,24 +1,24 @@
 
 
-#Peaks of People - The Prominence Calculator
+# Peaks of People - The Prominence Calculator
 
-###Overview
+### Overview
 
 This interactive tool built using R Shiny introduces a different way of conceptualizing population density and the ranking of population centers.  This idea borrows a statistical method from physical geography—topographical prominence—to suggest a new technique for measuring the relative significance or rank of population centers. Unlike raw population measures, prominence gives consideration to both the spatial intensity of concentrated population areas as well as the spatial dependence or independence of neighboring settlement clusters in relation to one another. Here you are able to use the calculator to compare counting-based ranking with prominence-based ranking using a global 1 km resolution gridded population data set (from the European Commission - Global Human Settlement Layer: https://ghsl.jrc.ec.europa.eu/).
 
 If you want to dig deeper in to the theory behind this approach, please ***read the paper:***
 
-[Peaks of People: Using Topographic Prominence as a Method for Determining the Ranked Significance of Populaiton Centers](https://www.tandfonline.com/doi/full/10.1080/00330124.2018.1531039)
+**[Peaks of People: Using Topographic Prominence as a Method for Determining the Ranked Significance of Populaiton Centers]**(https://www.tandfonline.com/doi/full/10.1080/00330124.2018.1531039)
 
 By Garrett Dash Nelson and Ryan McKeon, The Professional Geographer, 2019, v71.2 
 
-###Getting the Prominence Calculator
+### Getting the Prominence Calculator
 
 **Online via shinyapps.io:** https://ryanmckeon.shinyapps.io/promAppV4/   -or-
 
 **Locally via RStudio:** Download the global.R, server.R, and ui.R files that run this Shiny App and also download the GHS 1 km population grid from https://ghsl.jrc.ec.europa.eu/ ***note:*** *you will need to reproject this data set into ESPG: 4326 (WGS 1984) for it to work with the RLeaflet maps it generates.* 
 
-####How to Use the Calculator
+### How to Use the Calculator
 
 1. Choose the type and name of analysis region (US State or Country).
 
