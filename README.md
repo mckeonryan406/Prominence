@@ -8,7 +8,7 @@ This interactive tool built using R Shiny introduces a different way of conceptu
 
 If you want to dig deeper in to the theory behind this approach, please ***read the paper:***
 
-**[Peaks of People: Using Topographic Prominence as a Method for Determining the Ranked Significance of Populaiton Centers]**(https://www.tandfonline.com/doi/full/10.1080/00330124.2018.1531039)
+[**Peaks of People: Using Topographic Prominence as a Method for Determining the Ranked Significance of Populaiton Centers**](https://www.tandfonline.com/doi/full/10.1080/00330124.2018.1531039)
 
 By Garrett Dash Nelson and Ryan McKeon, The Professional Geographer, 2019, v71.2 
 
